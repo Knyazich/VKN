@@ -1,9 +1,9 @@
 import math
-x1=float(input("Введіть число a: "))
-x2=float(input("Введіть число b: "))
-x3=float(input("Введіть число c: "))
-Y=float(input("Введіть число Y: "))
-if Y % x1 == 0 and Y % x2 == 0 and Y % x3 == 0:
+x1=int(input("Введіть число a: "))
+x2=int(input("Введіть число b: "))
+x3=int(input("Введіть число c: "))
+Y=int(input("Введіть число Y: "))
+if x1 % Y == 0 and x2 % Y == 0 and x3 % Y == 0:
    print("Y є спільним дільником")
 else:
     print("Y не є спільним дільником")
